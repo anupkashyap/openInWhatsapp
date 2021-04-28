@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#34B7F1">
+    <title>
+        
+        
+        Open in Whatsapp
+    </title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./intlTelInput.min.css" />
+    <script src="./intlTelInput.min.js"></script>
+    <script src="./intlTelInput.js"></script>
+    <link rel="apple-touch-icon" href="/icons.png"/>
+    <script src="index.js"> </script>
+</head>
+<body>
+
+        <div>
+            <div class="header">
+                <h2 class="header__title"> Open in Whatsapp </h2>
+                </div>
+            <div class="content">
+                <div class="input-group mb-3 inputField">
+                    <div class="input-group-prepend phoneNum">
+                    
+                    </div>
+                    <!-- <input type="number" class="form-control" placeholder="Whatsapp number" aria-label="Username" aria-describedby="basic-addon1" id="numberField" onkeyup="onNumberInput()"> -->
+                    <input type="tel" id="numberField">
+
+<script>
+  var input = document.querySelector("#numberField");
+  window.intlTelInput(input, {
+    initialCountry:'in',
+    nationalMode:false,
+    autoHideDialCode:false
+  });
+</script>
+                </div>
+                  <div class="buttonContainer">
+                    <button type="button" class="btn btn-success" onclick="onButtonClick()">Open in Whatsapp</button>
+                  </div>
+                 
+            </div>
+                <div class="footer">
+                   
+                    </div>
+            
+        </div>
+</body>
+</html>

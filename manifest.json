@@ -1,0 +1,19 @@
+{
+    "name":"Open In Whatsapp",
+    "short_name":"OpenInWA",
+    "start_url":".",
+    "theme_color":"#34B7F1",
+    "display":"standalone",
+    "background_color":"#E5E5E5",
+    "icons":[{
+        "src":"icon.png",
+        "sizes":"192x192",
+        "type":"image/png",
+        "purpose":"maskable"
+    },
+    {
+        "src":"icon512.png",
+        "sizes":"512x512",
+        "type":"image/png"
+    }]
+}
