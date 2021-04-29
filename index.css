@@ -60,3 +60,7 @@ input[type=number] {
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .iti__flag {background-image: image-url("flags@2x.png");}
 }
+.ghLogo{
+    width: 5vw;
+    object-fit: contain;
+}
